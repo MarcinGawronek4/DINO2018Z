@@ -41,11 +41,15 @@
 <li>ściąga zmiany wprowadzone na serwerze remote na gałęzi branch lecz jeszcze nich nie wprowadza (do tego należy wywołać git merge lub git rebase)</li>
 </ul></li>
 <li>git config --global color.ui true</li>
+<ul><li>Włącza opcje kolorowego outputu komend gita. Domyślnie ustawione jest na auto, lecz true działa tak samo
+</li></ul>
 <li>git commit "filename"</li>
 <ul><li>dodaje zmiany wprowadzone w podanym pliku (tu: "filename") do aktualnej zawartości indeksu i pyta użytkownika o wprowadzenie wiadomości, opisującej wprowadzone zmiany
 
 </ul></li>
 <li>git branch -v</li>
+<ul><li>Pokazuje branch w którym się znajdujemy, najnowszy commit na tego brancha, oraz relację pomiędzy obecnym a głównym branchem
+</li></ul>
 <li>git push "remote" "branch"</li>
 <li>git log "branch" --not "branch"</li>
 <li>git bisect (start, bad, good, reset)</li>
